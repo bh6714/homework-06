@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>identification</title>
+</head>
+<body>
+    <h2>practice 08</h2>
+    <form action="/action_page.php">
+       
+    <label for="fname">Name:</label>
+    <input type="text" id="fname" name="fname" value="Mohamad" ><br><br>
+    <label for="lname">Family:</label>
+    <input type="text" id="lname" name="lname" placeholder="Enter your family here..."><br><br>
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email" value="Mkazemiraz72@gmail.com"><br><br>
+    <label>password:</label>
+    <input type="password" name="pwd" id="pwn" minlength="8"><br><br>
+    <label>Gender:</label>
+   <input type="radio" name="gender" id="male">
+   <label for="male">Male</label>
+   <input type="radio" name="gender" id="female">
+   <label for="female">Female</label>
+   <input type="radio" name="gender" id="other">
+   <label for="other">Other</label><br><br>
+   <label>Mobile:</label>
+ <select name="number" id="number">
+   <option value="0910">0910</option>
+   <option value="0912">0912</option>
+   <option value="0935">0935</option>
+   <option value="0991">0991</option>
+</select>
+   <input type="tel" name="phone" id="phone" placeholder="3861101" pattern="[0-9]{7}" required><br><br>
+<table>
+   <tbody>
+     <tr>
+       <td rowspan="4"><label>Interest:</label></td>
+       <td><input type="checkbox" name="music" id="music"><label>music</label></td>
+     </tr>
+
+     <tr>         
+       <td><input type="checkbox" name="book" id="book"><label>book</label></td>
+     </tr>
+     <tr>
+       <td><input type="checkbox" name="philosophy" id="philosophy" checked><label>philosophy</label></td>
+     </tr>
+     <tr>
+       <td><input type="checkbox" name="poker" id="poker"><label>poker</label></td>
+     </tr>
+
+   </tbody>
+</table><br>
+<table>
+   <tbody>
+     <tr>
+       <td><label>My comment:</label></td>
+       <td><textarea name="comment" id="comment" cols="10" rows="05">awesome web design...</textarea></td>
+     </tr>
+   </tbody>
+</table><br>
+     <input type="submit" value="Send">
+     <input type="Reset">
+</form>
+</body>
+</html>
